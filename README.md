@@ -12,7 +12,7 @@
 Setup:
 
 <ul>
-<li> Clone hte project</li>
+<li> Clone project</li>
 <li> Open project and install composer</li>
 <li> Copy and paste .env.example in the same directory then rename it to .env</li>
 <li> Open the .env file and update the database parameters</li>
