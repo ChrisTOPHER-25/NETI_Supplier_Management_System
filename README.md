@@ -1,23 +1,14 @@
-# NETI: SUPPLIER MANAGEMENT SYSTEM
+# C.J.L.C - Portfolio
 
-![Laravel Logo](https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg)
+<p align="center"><a href="https://javascript.info/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="400" alt="JavaScript Logo"></a></p>
 
-[![Build Status](https://github.com/laravel/framework/workflows/tests/badge.svg)](https://github.com/laravel/framework/actions)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/framework)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework)](https://packagist.org/packages/laravel/framework)
-[![License](https://img.shields.io/packagist/l/laravel/framework)](https://packagist.org/packages/laravel/framework)
+Features:
 
-## Requirements
+- Personal Online Portfolio using Bootstrap, HTML, CSS & JavaScript.
+- Contains animations when scrolling.
+- Smooth scrolling in each section.
+- Compatible with all devices and with a pleasant user interface.
 
-- XAMPP Version: Recent
+💙 You can connect with me. [LinkedIn](https://www.linkedin.com/in/christopher-jan-cayabyab-746996271/)
 
-## Setup
-
-- Clone project
-- Open project and install composer
-- Copy and paste .env.example in the same directory then rename it to .env
-- Open the .env file and update the database parameters
-- Run "php artisan key:generate"
-- Run "php artisan migrate"
-- Run "php artisan serve"
-- Run "npm run dev"
+![Preview Img](/preview.png)
