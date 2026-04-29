@@ -1,0 +1,46 @@
+{
+  "diagnostics": {
+    "enable": true,
+    "undefinedTypes": false,
+    "undefinedFunctions": false,
+    "undefinedMethods": false,
+    "undefinedProperties": false,
+    "undefinedVariables": false,
+    "undefinedConstants": false,
+    "deprecated": true,
+    "argument": true,
+    "unused": true,
+    "parseErrors": true,
+    "implementationErrors": false
+  },
+  "files": {
+    "maxSize": 5242880,
+    "exclude": [
+      "**/.git",
+      "**/.svn",
+      "**/.hg",
+      "**/CVS",
+      "**/.DS_Store",
+      "**/node_modules/**",
+      "**/bower_components/**",
+      "**/vendor/**/.git/**",
+      "**/vendor/**/.svn/**",
+      "**/vendor/**/.hg/**",
+      "**/vendor/**/CVS/**",
+      "**/vendor/**/.DS_Store/**",
+      "**/vendor/**/.history/**",
+      "**/vendor/**/tests/**",
+      "**/vendor/**/docs/**"
+    ]
+  },
+  "format": {
+    "enable": true
+  },
+  "completion": {
+    "fullyQualifyGlobalConstantsAndFunctions": false,
+    "maxItems": 100
+  },
+  "runtime": {
+    "executionPath": "php"
+  }
+}

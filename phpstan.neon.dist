@@ -1,0 +1,31 @@
+includes:
+  - phpstan-baseline.neon
+
+parameters:
+  level: 5
+  paths:
+    - app
+    - config
+    - database
+    - routes
+    - tests
+
+  bootstrapFiles:
+    - vendor/autoload.php
+
+  scanFiles:
+    - vendor/laravel/framework/src/Illuminate/Foundation/helpers.php
+    - vendor/laravel/framework/src/helpers.php
+
+  ignoreErrors:
+    - identifier: class.notFound
+    - identifier: undefined.class
+    - identifier: method.notFound
+
+  typeAliases:
+    RouteName: 'string'
+    RouteParameterName: 'string'
+
+  checkMissingIterableValueType: false
+  treatPhpDocTypesAsCertain: false
+  reportUnmatchedIgnoredErrors: false

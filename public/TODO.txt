@@ -1,0 +1,7 @@
+NOTIFICATIONS:
+
+- Create/Delete BOM
+- Publish BOM
+- Submit Quotation
+- Accept Quotation
+- Decline Quotation
